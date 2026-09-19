@@ -1,0 +1,39 @@
+# ⚠ هذا مستودع عرضٍ لا كود. لا يدخله مصدرٌ ولا سرّ ولا بيانات مدرسة.
+#
+# القائمة احتياطٌ ثانٍ: المصدر أصلاً في مجلدٍ آخر لا علاقة له بهذا
+# المستودع — فلا يصل إلى هنا حتى بـ `git add -A` بالخطأ.
+
+# أسرار
+.env
+.env.*
+*.license
+*.key
+*.pem
+*.crt
+.service_token
+certs/
+handover.txt
+
+# بيانات مدرسة
+backups/
+*.dump
+data/
+uploads/
+logs/
+
+# مصدر
+*.py
+*.dart
+*.sql
+!docs/**/*.md
+
+# مخلَّفات
+__pycache__/
+.venv/
+.dart_tool/
+build/
+dist/
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
